@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySolution"
+    android:background="@color/colorAccent2">
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+                    <TextView
+                        android:text="Solution"
+                        android:gravity="center"
+                        android:background="@color/colorAccent1"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:id="@+id/textView"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Equation"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="30sp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/eqn"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:id="@+id/eqn1"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Step 1:"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/step1"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp"
+                        android:id="@+id/step1sol"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Step 2:"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/step2"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp"
+                        android:id="@+id/step2sol"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Step 3:"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/step3"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp"
+                        android:id="@+id/step3sol"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Step 4:"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/step4"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp"
+                        android:id="@+id/step4sol"
+                        />
+
+
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
